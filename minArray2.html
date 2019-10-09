@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm giá trị nhỏ nhất</title>
+</head>
+<body>
+<script>
+    let arr1=[]
+    let arr = [1,2,4,6,-4];
+    function getMin(a) {
+        if (a.length==0){
+            return "Mảng rỗng";
+        }
+        let min = a[0];
+        for (i=0 ; i< a.length ; i++){
+            if (a[i]<min){
+                min=a[i];
+            }
+        }
+        return min;
+    }
+    alert(getMin(arr1));
+</script>
+</body>
+</html>
